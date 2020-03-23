@@ -1,0 +1,52 @@
+{
+  "SERVICE_NAME": "BAAC_Promote_Tourism",
+  "RETURN_MESSAGE": {
+    
+    "CID_ACTIVE": "active",
+    "CID_INACTIVE": "inactive",
+    
+    "STATUS_FAIL": "fail",
+    "REGIS_FAIL_MESSAGE": "ท่านได้ทำการลงทะเบียนแล้ว ไม่สามารถลงทะเบียนซ้ำได้",
+    "NOTFOUND_MESSAGE": "Not found",
+    "CHECK_REGIS_FAIL": "ท่านไม่มีข้อมูลในระบบ กรุณาลงทะเบียน",
+
+    "REGIS_MESSAGE": "Register success",
+    "UNREGIS_MESSAGE": "Unregister success",
+    "ALREADY_MESSAGE": "You are already inactive",
+    
+    "API_RES_MSG_NO" : "No",
+
+    "INPUT_INVALID" : "invalid format",
+    "INVALID_REFCODE" : "รหัสอ้างอิงไม่ถูกต้อง",
+    "INVALID_CARDTYPE" : "บัตรเดบิตไม่ตรงตามเงื่อนไขที่ธนาคารกำหนด"
+  },
+
+  "EXTERNAL_API_PATH": {
+    "CHECKREF_API" : "checkownmobile",
+    "NOTISEND_API" : "noti/send",
+    "LOGCONSENT_API" : "consent",
+    "CHECKCARD_API" : "checkcardtype"
+
+  },
+
+  "STATUS_CODE": {
+    "OK": "200",
+    "CREATED": "201",
+    "BAD_REQUEST": "400",
+    "UNAUTHORIZE":"401",
+    "NOT_FOUND": "404",
+    "INTERNAL_SERVER_ERROR": "500"
+  },
+
+  "LOG_REGISTER_SUCCESS": {
+    "path": "/register",
+    "status": "200",
+    "msg": "register success"
+  },
+
+  "LOG_UNREGISTER_SUCCESS": {
+    "path": "/unregister",
+    "status": "200",
+    "msg": "unregister success"
+  }
+}
